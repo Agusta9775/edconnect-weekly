@@ -21,7 +21,7 @@
 
     <main>
         <div class="profile-summary">
-            <h1>John Doe</h1>
+            <h2>John Doe</h2>
             <p>john.doe@gmail.com</p>
             <ul>
                 <li>Program: Computer Science</li>
@@ -31,22 +31,22 @@
         </div>
 
         <div class="update-profile">
-            <h1>Update Profile</h1>
-            <form>
+            <h2>Update Profile</h2>
+            <form class="updateProfile">
                 <div> First Name: <input type="text" name="firstName"/></div> 
                 <div> Last Name: <input type="text" name="lastName"/></div> 
                <div> Email Address: <input type="email" name="email"/></div> 
               <div> Password: <input type="password" name="password"/></div> 
               <div> Matric Number: <input type="text" name="matricNumber"/></div> 
-          <p>Program:</p>
-              <select id="program" name="program:">
+            <label> Program:</label> 
+              <select name="program:">
                   <option value="computer_science">Computer Science</option>
                   <option value="computer_information_systems">Computer Information Systems</option>
                   <option value="computer_technology">Computer Technology</option>
-              </select>
-              <p> Graduation Year:</p>
+              </select> <br>
+              <label>Year Of Graduation:</label> 
                  <select name="graduationYear">
-                     <option value="2013">2013</Option> 
+                     <option value="2013">2013</option> 
                  <option value="2014">2014</option>
                  <option value="2015">2015</option>
                  <option value="2016">2016</option>
@@ -56,14 +56,18 @@
                  <option value="2020">2020</option>
                  </select>
         </div>
-      
+    </form>
+     
         <div class="update-password">
-            <h1>Change Password</h1>
+            <h2>Change Password</h2>
+            <form class="changePassword">
             <div>Current Password: <input type="password" name="currentPassword"/></div> 
             <div>New Password: <input type="password" name="newPassword"/></div> 
             <div>Confirm Password: <input type="password" name="confirmPassword"/></div> 
             <input type="submit">
         </div>
+      </form>
+        
     </main>
 </body>
 </html>
