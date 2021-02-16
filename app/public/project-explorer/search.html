@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+</head>
+<body>
+    <header>
+        <h1>Project Explorer</h1>
+        <h2>One Stop Database for Academic Projects</h2>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="search.html">Projects</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <main>
+        <div class="search-form">
+            <h1>Search Project By</h1>
+            <form class="searchForm">
+                <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags"> <br>
+                    <label for="">Search By:</label>
+                    <select name="searchType">
+                    <option value="Name">Name</option>
+                    <option value="Abstract">Abstract</option>
+                    <option value="Authors">Authors</option>
+                    <option value="Tag">Tag</option>
+                </select> <br>
+                <input type="submit" value="Search"/>
+            </form>
+        </div>
+
+        <div class="search-result">
+            <h1>Search Result</h1>
+            <h2>Project 1</h2>
+            <ul>
+                <li>Name: Project1</li>
+                <li>Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet cum culpa <br>
+                     unde praesentium a sunt aperiam pariatur deleniti. Earum odio nam rem sed itaque. Eum harum <br>
+                      ipsa veritatis dolorem.</li>
+                <li>Program: Computer Science</li>
+                <li>Authors: John Doe, Jane Doe</li>
+                <li>Tags: #Asphyxia, #GSW</li>
+                <li>Year: 2018</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
